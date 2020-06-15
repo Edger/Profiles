@@ -1,0 +1,27 @@
+# > 今日热榜
+DOMAIN,api.tophub.today
+DOMAIN-SUFFIX,tophub.today
+IP-CIDR,47.74.212.154/24
+
+# > FIH
+DOMAIN-SUFFIX,fihtdc.com
+DOMAIN-SUFFIX,fih-foxconn
+DOMAIN-SUFFIX,efih-foxconn
+
+# > Tencent
+IP-CIDR,82.254.116.0/24
+IP-CIDR,119.28.28.28/32
+IP-CIDR,182.254.116.0/24
+
+# > STC
+DOMAIN-SUFFIX,stc-server.in
+DOMAIN-SUFFIX,stc-server.me
+
+# > 码云
+DOMAIN-SUFFIX,gitee.com
+DOMAIN-SUFFIX,gitee.io
+DOMAIN-SUFFIX,juejin.im
+DOMAIN-SUFFIX,hencoder.com
+
+# > Boss 直聘
+DOMAIN-SUFFIX,zhipin.com
