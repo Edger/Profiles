@@ -26,3 +26,6 @@ payload:
 
   # > Boss 直聘
   # - DOMAIN-SUFFIX,zhipin.com
+
+  # > Emby
+  - DOMAIN-SUFFIX,pub1.emby.wtf
