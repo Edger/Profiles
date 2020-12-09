@@ -14,8 +14,8 @@ DOMAIN-SUFFIX,efih-foxconn
 # IP-CIDR,182.254.116.0/24
 
 # > STC
-DOMAIN-SUFFIX,stc-server.in
-DOMAIN-SUFFIX,stc-server.me
+DOMAIN-KEYWORD,stc-server
+DOMAIN-KEYWORD,stcserver
 
 # > 码云
 # DOMAIN-SUFFIX,gitee.com
@@ -28,3 +28,4 @@ DOMAIN-SUFFIX,stc-server.me
 
 # > Emby
 DOMAIN-SUFFIX,pub1.emby.wtf
+DOMAIN-SUFFIX,emby.plusmedia.site
