@@ -4,7 +4,8 @@
 name: checkin.js
 
 on:
-  workflow_dispatch:
+  push:
+    branches: master
   schedule:
     - cron: "8 16 * * *"
 
