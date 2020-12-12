@@ -30,3 +30,5 @@ payload:
   # > Emby
   - DOMAIN-SUFFIX,pub1.emby.wtf
   - DOMAIN-SUFFIX,emby.plusmedia.site
+
+  - DOMAIN-SUFFIX,hugelive.com
