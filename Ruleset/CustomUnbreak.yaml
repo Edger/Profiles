@@ -1,8 +1,6 @@
 payload:
   # > 今日热榜
-  - DOMAIN,api.tophub.today
-  - DOMAIN-SUFFIX,tophub.today
-  - IP-CIDR,47.74.212.154/24
+  - DOMAIN-KEYWORD,tophub
 
   # > FIH
   - DOMAIN-SUFFIX,fihtdc.com
