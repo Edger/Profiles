@@ -26,7 +26,7 @@ payload:
   # - DOMAIN-SUFFIX,zhipin.com
 
   # > Emby
-  - DOMAIN-SUFFIX,pub1.emby.wtf
-  - DOMAIN-SUFFIX,emby.plusmedia.site
+  - DOMAIN-KEYWORD,emby.wtf
+  - DOMAIN-KEYWORD,emby.plusmedia
 
   - DOMAIN-SUFFIX,hugelive.com
