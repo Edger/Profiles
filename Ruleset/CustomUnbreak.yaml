@@ -1,32 +1,5 @@
 payload:
-  # > 今日热榜
-  - DOMAIN-KEYWORD,tophub
-
-  # > FIH
-  - DOMAIN-SUFFIX,fihtdc.com
-  - DOMAIN-SUFFIX,fih-foxconn
-  - DOMAIN-SUFFIX,efih-foxconn
-
   # > Tencent
   # - IP-CIDR,82.254.116.0/24
   # - IP-CIDR,119.28.28.28/32
   # - IP-CIDR,182.254.116.0/24
-
-  # > STC
-  - DOMAIN-KEYWORD,stc-server
-  - DOMAIN-KEYWORD,stcserver
-
-  # > IT
-  # - DOMAIN-SUFFIX,gitee.com
-  # - DOMAIN-SUFFIX,gitee.io
-  # - DOMAIN-SUFFIX,juejin.im
-  # - DOMAIN-SUFFIX,hencoder.com
-
-  # > Boss 直聘
-  # - DOMAIN-SUFFIX,zhipin.com
-
-  # > Emby
-  - DOMAIN-KEYWORD,emby.wtf
-  - DOMAIN-KEYWORD,emby.plusmedia
-
-  - DOMAIN-SUFFIX,hugelive.com
