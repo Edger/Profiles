@@ -1,5 +1,8 @@
-#payload:
+payload:
   # > Tencent
   # - IP-CIDR,82.254.116.0/24
   # - IP-CIDR,119.28.28.28/32
   # - IP-CIDR,182.254.116.0/24
+  
+  > Local
+  IP-CIDR,192.168.1.1/24
