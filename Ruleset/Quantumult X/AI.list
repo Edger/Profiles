@@ -1,13 +1,13 @@
 # openAI
-host-suffix,openai.com
-host-suffix,chat.openai.com
-host-suffix,challenges.cloudflare.com
-host-suffix,auth0.openai.com
-host-suffix,platform.openai.com
-host-suffix,ai.com
+host-suffix,openai.com,proxy
+host-suffix,chat.openai.com,proxy
+host-suffix,challenges.cloudflare.com,proxy
+host-suffix,auth0.openai.com,proxy
+host-suffix,platform.openai.com,proxy
+host-suffix,ai.com,proxy
 
 # bingChat
-host-keyword,bing
+host-keyword,bing,proxy
 
 # Google Bard
-host-suffix,bard.google.com
+host-suffix,bard.google.com,proxy
