@@ -1,0 +1,13 @@
+# openAI
+host-suffix,openai.com
+host-suffix,chat.openai.com
+host-suffix,challenges.cloudflare.com
+host-suffix,auth0.openai.com
+host-suffix,platform.openai.com
+host-suffix,ai.com
+
+# bingChat
+host-keyword,bing
+
+# Google Bard
+host-suffix,bard.google.com
