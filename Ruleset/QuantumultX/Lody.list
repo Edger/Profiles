@@ -1,0 +1,23 @@
+# Lody Direct Ruleset — Quantumult X
+# 仅包含 Lody 自有/官方域名，命中后直连（不做代理）。
+#
+# 远程引用方式（放在 [filter_remote]，注意要排在通用规则前面）：
+#   https://<your-host>/quantumultx/lody-direct.list, tag=Lody, force-policy=direct, update-interval=86400, enabled=true
+#
+# 本地方式：把下面规则行（去掉行首井号注释即可）粘到 [filter_local] 顶部。
+
+# Lody 自有域名
+# 一条 suffix 覆盖：lody.ai / api.lody.ai / updates.lody.ai / feedback.lody.ai / convex.lody.ai / m.lody.ai
+host-suffix, lody.ai, direct
+
+# 官方托管版分享 / 预览域（gateway.lody.uk、session-grant.lody.uk 等）
+host-suffix, lody.uk, direct
+
+# 官方托管版实时同步数据面（Streams / Loro 分片，如 streams-api-proxy.loro.dev）
+host-suffix, loro.dev, direct
+
+# Lody 的 Cloudflare Workers 部署预设：lody-server.<any>.workers.dev
+host-keyword, lody-server, direct
+
+# Lody 的 Cloudflare Pages 部署预设：main.lody.pages.dev 及分支预览
+host-suffix, lody.pages.dev, direct
