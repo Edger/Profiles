@@ -1,0 +1,31 @@
+# Lody Direct Ruleset — Clash (rule-provider, behavior: classical)
+# 仅包含 Lody 自有/官方域名，命中后直连（不做代理）。
+#
+# rule-providers 配置示例：
+#   rule-providers:
+#     lody-direct:
+#       type: http
+#       behavior: classical
+#       url: "https://<your-host>/clash/lody-direct.yaml"
+#       path: ./ruleset/lody-direct.yaml
+#       interval: 86400
+#
+# rules 中引用（要排在通用规则前面）：
+#   - RULE-SET,lody-direct,DIRECT
+
+payload:
+  # Lody 自有域名
+  # 一条 suffix 覆盖：lody.ai / api.lody.ai / updates.lody.ai / feedback.lody.ai / convex.lody.ai / m.lody.ai
+  - DOMAIN-SUFFIX,lody.ai
+
+  # 官方托管版分享 / 预览域（gateway.lody.uk、session-grant.lody.uk 等）
+  - DOMAIN-SUFFIX,lody.uk
+
+  # 官方托管版实时同步数据面（Streams / Loro 分片，如 streams-api-proxy.loro.dev）
+  - DOMAIN-SUFFIX,loro.dev
+
+  # Lody 的 Cloudflare Workers 部署预设：lody-server.<any>.workers.dev
+  - DOMAIN-KEYWORD,lody-server
+
+  # Lody 的 Cloudflare Pages 部署预设：main.lody.pages.dev 及分支预览
+  - DOMAIN-SUFFIX,lody.pages.dev
